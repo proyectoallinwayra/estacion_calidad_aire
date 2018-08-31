@@ -1,0 +1,162 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Conn_01x01
+#
+DEF Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x02
+#
+DEF Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x06
+#
+DEF Conn_01x06 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Conn_01x06" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_02x03_Odd_Even
+#
+DEF Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Lvl_shifter
+#
+DEF Lvl_shifter Lvl 0 40 Y Y 1 F N
+F0 "Lvl" 0 -450 60 H V C CNN
+F1 "Lvl_shifter" 0 300 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -300 350 300 -400 0 1 0 N
+X LV 1 -500 150 200 R 50 50 1 1 I
+X A1 2 -500 50 200 R 50 50 1 1 I
+X A2 3 -500 -50 200 R 50 50 1 1 I
+X A3 4 -500 -150 200 R 50 50 1 1 I
+X A4 5 -500 -250 200 R 50 50 1 1 I
+X GND 6 -500 -350 200 R 50 50 1 1 I
+X GND 7 500 -350 200 L 50 50 1 1 I
+X B4 8 500 -250 200 L 50 50 1 1 I
+X B3 9 500 -150 200 L 50 50 1 1 I
+X B2 10 500 -50 200 L 50 50 1 1 I
+X B1 11 500 50 200 L 50 50 1 1 I
+X HV 12 500 150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MCP3424_modificado
+#
+DEF MCP3424_modificado MCP 0 40 Y Y 1 F N
+F0 "MCP" 0 -450 60 H V C CNN
+F1 "MCP3424_modificado" 0 300 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -300 350 300 -400 0 1 0 N
+X GND 1 -500 150 200 R 50 50 1 1 I
+X +5V 2 -500 50 200 R 50 50 1 1 I
+X +C3 3 -500 -50 200 R 50 50 1 1 I
+X -C3 4 -500 -150 200 R 50 50 1 1 I
+X +C4 5 -500 -250 200 R 50 50 1 1 I
+X -C4 6 -500 -350 200 R 50 50 1 1 I
+X SCL 7 500 150 200 L 50 50 1 1 I
+X SDA 8 500 50 200 L 50 50 1 1 I
+X -C2 9 500 -50 200 L 50 50 1 1 I
+X +C2 10 500 -150 200 L 50 50 1 1 I
+X -C1 11 500 -250 200 L 50 50 1 1 I
+X +C1 12 500 -350 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
